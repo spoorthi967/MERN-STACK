@@ -1,38 +1,37 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px; /* Adjust the width as needed */
-    background-color: #ffffff;
-    border: none;
+/* body
+ {
+  background-color: antiquewhite;
+  background-image: url("..//images/images/disney.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll; */
+
+div {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(24, 21, 21);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  {
+    background-color: white;
+     color: brown;
+     background-image: url("../images/images/disney.png");
+     background-repeat: no-repeat;
+     height: 668px;
+     width: 750px;
   }
-  
-  li {
-    display: block; /* Makes the items stack vertically */
-    text-align: left;
-  }
-  
-  li a {
-    display: block;
-    color: #030102;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(83, 64, 100);
-  }
-  
-  li a.active {
-    color: rgb(112, 72, 72);
-    background-color: #ececec;
-  }
-  
-  li img {
-    display: block;
-    margin: auto; /* Centers the logo */
-    width: 50px;
-    height: 50px;
-  }
-  
+    
+    
