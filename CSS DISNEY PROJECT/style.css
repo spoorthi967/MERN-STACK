@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .nav_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .nav_text {
+    font-weight: 800;
+    font-weight: bolder;
+    padding: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  .main-image {
+    /* object-fit: fill; */
+    /* object-fit: contain; */
+    /* position: relative; */
+    height: 85vh;
+    width: 95vw;
+    transition: transform 0.3s ease;
+  }
+  .main-image:hover {
+    transform: scale(1.01);
+    /* transform: scale(1.02); */
+  }
+  .main_container_img {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  .collections_container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  .collection_images {
+    height: 440px;
+    width: 360px;
+    box-shadow: 10px 10px 5px lightblue inset;
+  }
+  .collection_img_container {
+    position: relative;
+  }
+  .text_on_collection_img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 80px;
+    height: 80px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(14, 12, 12, 0.068),
+      rgb(22, 21, 21)
+    );
+  }
+  .collection_images {
+    transition: transform 0.3s ease;
+  }
+  .text_on_collection_img > p {
+    font-weight: 800;
+    font-size: large;
+    color: white;
+  }
+  .collection_images:hover {
+    transform: scale(1.02);
+  }
+  .featured_add_container {
+    height: 85vh;
+    width: 95vw;
+    display: flex;
+    background-color: rgba(228, 220, 220, 0.726);
+    margin: 0px 30px 0px 30px;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .featured_add_container > p {
+    font-size: xx-large;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .images {
+    display: flex;
+  }
+  
+  .img-hover-add {
+    transition: transform 0.3s ease;
+  }
+  
+  .img-hover-add:hover {
+    transform: scale(1.01);
+  }
+  .add-text {
+    margin: 30px 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .add-text-title {
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .add-text-des {
+    font-size: medium;
+    font-weight: 300;
+  }
+  .holiday {
+    height: 400px;
+    width: 480px;
+    padding: 10px;
+  }
+  .hover-nav {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 94vw;
+    background-color: rgba(51, 48, 48, 0.788);
+    color: white;
+    height: 50px;
+    justify-items: center;
+    align-items: center;
+    /* margin-left: 14px; */
+    z-index: 1;
+    top: 90px;
+  }
+  .hover-nav > p {
+    font-size: large;
+  }
+  .park:hover + .hover-nav {
+    cursor: pointer;
+    visibility: visible;
+  }
+  .nav_text:hover {
+    cursor: pointer;
+  }
+
+  
